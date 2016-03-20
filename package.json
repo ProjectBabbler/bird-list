@@ -27,6 +27,7 @@
     "rimraf": "^2.3.4"
   },
   "dependencies": {
+    "ebird-js": "0.0.9",
     "firebase": "^2.4.1"
   }
 }
