@@ -4,12 +4,6 @@
   "description": "Database of birds",
   "main": "lib/index.js",
   "scripts": {
-    "build": "gulp build",
-    "clean": "rimraf lib",
-    "lint": "eslint src",
-    "prepublish": "npm run clean && npm run build"
-  },
-  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,5 +25,8 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "rimraf": "^2.3.4"
+  },
+  "dependencies": {
+    "firebase": "^2.4.1"
   }
 }
