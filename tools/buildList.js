@@ -8,7 +8,7 @@ var config = {
         client_email: 'private-console-key@project-3189009344311462796.iam.gserviceaccount.com',
     }
 };
-let firebaseApp = firebase.initializeApp(config);
+let firebaseApp = firebase.initializeApp(config ,'bird-list-server');
 var ebird = require('ebird-js');
 
 ebird.ref.taxa().then(results => {

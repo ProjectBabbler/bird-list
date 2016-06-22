@@ -9,7 +9,7 @@ var config = {
         client_email: 'public-read-only@project-3189009344311462796.iam.gserviceaccount.com',
     }
 };
-let firebaseApp = firebase.initializeApp(config);
+let firebaseApp = firebase.initializeApp(config, 'bird-list');
 
 module.exports = {
     getBySpeciesCode(code) {
