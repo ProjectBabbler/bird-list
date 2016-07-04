@@ -1,6 +1,6 @@
 {
   "name": "bird-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Database of birds",
   "main": "lib/index.js",
   "scripts": {
